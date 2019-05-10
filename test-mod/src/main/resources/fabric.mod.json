@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "scheduler_test",
+  "version": "1.0.0",
+  "name": "Scheduler Test",
+  "description": "Scheduler Test",
+  "authors": 
+  [
+    "Daomephsta"
+  ],
+  "environment": "*",
+  "entrypoints": 
+  {
+    "main": 
+	[
+      "io.github.daomephsta.kronos_scheduler.test.KronosSchedulerTest::initialise"
+    ]
+  },
+  "requires": 
+  {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+    "kronos_scheduler": "*"
+  }
+}

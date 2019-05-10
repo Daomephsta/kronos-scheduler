@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "kronos_scheduler",
+  "version": "${version}",
+  "name": "Kronos Scheduler API",
+  "description": "Action scheduling API",
+  "authors": 
+  [
+    "Daomephsta"
+  ],
+  "contact": 
+  {
+    "homepage": "TODO",
+    "sources": "TODO"
+  },
+  "license": "MIT",
+  "icon": "assets/kronos_scheduler/icon.png",
+  "environment": "*",
+  "entrypoints": 
+  {
+    "main": 
+	[
+      "io.github.daomephsta.kronos_scheduler.implementation.KronosScheduler::initialise"
+    ]
+  },
+  "requires": 
+  {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
